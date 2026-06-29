@@ -96,5 +96,8 @@ $RECYCLE.BIN/
 # ── VSCode ─
 .vscode/
 !.vscode/extensions.json
-*ddl.sql
+*.sql
 p.md
+i.md
+api/appsettings.Development.json
+api/appsettings.json
