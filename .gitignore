@@ -1,0 +1,100 @@
+
+# ── Variables de entorno ──────────────
+.env
+.env.*
+!.env.example
+
+# ── Build output ─────────────────────────────────────────────
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+build/
+publish/
+
+# ── Visual Studio / Rider ────────────────────────────────────
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docview
+*.userprefs
+
+# ── NuGet ────────────────────────────────────────────────────
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.assets.json
+**/packages/*
+!**/packages/build/
+
+# ── dotnet tools ─────────────────────────────────────────────
+.config/dotnet-tools.json
+*.tool-manifest.json
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+LogFiles/
+
+# ── Test results ─────────────────────────────────────────────
+[Tt]est[Rr]esult*/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage-report/
+
+# ── Docker ───────────────────────────────────────────────────
+docker-compose.override.yml
+docker-compose.local.yml
+
+# ── SQL Server / datos locales ────────────────────────────────
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.bacpac
+
+# ── Archivos del sistema operativo ───────────────────────────
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ── Certificados y claves ─────────────────────────────────────
+*.pfx
+*.pem
+*.key
+*.cer
+*.p12
+
+# ── Archivos temporales ───────────────────────────────────────
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+# ── JetBrains Rider específico ────────────────────────────────
+.idea/
+*.sln.iml
+
+# ── VSCode ─
+.vscode/
+!.vscode/extensions.json
+*ddl.sql
+p.md
